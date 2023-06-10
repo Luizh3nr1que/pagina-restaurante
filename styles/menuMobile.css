@@ -1,0 +1,68 @@
+.menuMobile {
+    display: none;
+    position: absolute;
+    height: 100%;
+    width: 250px;
+    right: 0;
+    top: 0;
+    z-index: 2;
+    padding: 10px;
+    background-color: rgba(12, 12, 12);
+
+}
+
+.animationOpenMenu {
+    animation: OpenMenu 0.3s linear forwards;
+}
+
+.animationCloseMenu {
+    animation: CloseMenu 0.3s linear forwards;
+}
+
+@keyframes OpenMenu {
+    to {
+        right: 0;
+    }
+
+    from {
+        right: -250px;
+    }
+}
+
+@keyframes CloseMenu {
+    to {
+        right: -250px;
+    }
+
+    from {
+        right: 0;
+    }
+}
+
+.fecharMenu {
+    position: absolute;
+    font-size: 30px;
+    left: 10px;
+    top: 15px;
+    color: rgb(233, 124, 0);
+}
+
+
+.menuMobileConteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+    margin-top: 40%;
+}
+
+.menuMobileConteudo a {
+    border: 2px solid rgb(233, 124, 0);
+    background-color: white;
+    color: rgb(233, 124, 0);
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+
+}

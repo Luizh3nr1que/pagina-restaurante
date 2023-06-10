@@ -1,0 +1,106 @@
+@media screen and (max-width:1067px) {
+    .container {
+        padding: 30px;
+    }
+
+    .container .img img {
+        max-width: 400px;
+    }
+
+    .conteudo-favoritos {
+        height: 50em;
+    }
+}
+
+@media screen and (max-width:988px) {
+    .MenuContainer {
+        height: 65em;
+    }
+}
+
+@media screen and (max-width:924px) {
+    .container .img img {
+        max-width: 350px;
+    }
+
+    .container .escrita h1 {
+        font-size: 22px;
+    }
+
+    .container .escrita p {
+        font-size: 13px;
+    }
+}
+
+
+@media screen and (max-width:728px) {
+    .container .img img {
+        max-width: 300px;
+    }
+
+    .container .escrita h1 {
+        font-size: 19px;
+    }
+
+    .container .escrita p {
+        font-size: 12px;
+    }
+}
+
+
+@media screen and (max-width:628px) {
+    .container {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .container .escrita {
+        width: 28em;
+        margin-top: 10px;
+    }
+
+    .container {
+        margin-top: 120px;
+    }
+}
+
+
+@media screen and (max-width:540px) {
+
+    .containerHeader {
+        justify-content: space-between;
+        padding-left: 0px;
+        padding-right: 30px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .iconMenu {
+        font-size: 40px;
+        color: rgb(233, 124, 0);
+        visibility: visible;
+    }
+
+}
+
+@media screen and (max-width:524px) {
+    .conteudo-favoritos {
+        height: 92em;
+    }
+}
+
+@media screen and (max-width:474px) {
+    .MenuContainer {
+        height: 125em;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .container .escrita {
+        margin: auto;
+        width: 100%;
+        border: 1px solid red;
+    }
+}
