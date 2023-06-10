@@ -127,7 +127,7 @@ nav a:after {
     border: none;
     width: 120px;
     height: 40px;
-    border-radius: 5px;
+    border-radius: 3px;
     cursor: pointer;
     transition: all .5s ease-in-out;
 
@@ -136,6 +136,7 @@ nav a:after {
 .buttonEscrita:hover {
     background-color: rgb(195, 104, 0);
     color: white;
+    border-radius: 10px;
     transition: all .5s ease-in-out;
 }
 
@@ -225,8 +226,14 @@ nav a:after {
     padding: 8px;
     border-radius: 5px;
     cursor: pointer;
+    transition: all .5s ease-in-out;
 }
 
+.card-content button:hover {
+    transition: all .5s ease-in-out;
+    background-color: white;
+    color: black;
+}
 
 
 .img-fundo img {
@@ -309,6 +316,13 @@ nav a:after {
     padding: 8px;
     border-radius: 5px;
     cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.card-menu-content button:hover {
+    transition: all .5s ease-in-out;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 
