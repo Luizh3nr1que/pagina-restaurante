@@ -42,6 +42,20 @@ fecharMenu.addEventListener('click', () => {
 
 
 
+const linksA = document.querySelectorAll('.link');
+
+linksA.forEach(linksA => {
+    linksA.addEventListener('click', () => {
+        MenuConteudo.classList.remove('animationOpenMenu');
+        MenuConteudo.classList.add('animationCloseMenu');
+        setTimeout(() => {
+            MenuConteudo.style.display = 'none';
+        }, 300);
+    })
+})
+
+
+
 const img = document.querySelectorAll('img');
 
 img.forEach(img => {
