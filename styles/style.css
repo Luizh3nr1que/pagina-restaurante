@@ -100,15 +100,16 @@ nav a:after {
 .container {
     display: flex;
     align-items: center;
-    gap: 120px;
+    gap: 50px;
     max-width: 75em;
-    margin: 5em auto;
+    margin: 8em auto;
 }
 
 .container .escrita {
     color: rgb(201, 107, 0);
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.334);
-    width: 40em;
+    width: 45em;
+
 }
 
 .container .escrita h1 {
@@ -141,24 +142,8 @@ nav a:after {
 }
 
 .container .img img {
-    max-width: 500px;
-    filter: drop-shadow(10px 10px 50px rgb(0, 0, 0));
-    animation: float 2s ease-in-out infinite;
+    max-width: 550px;
 
-}
-
-@keyframes float {
-    0% {
-        transform: translateY(0);
-    }
-
-    50% {
-        transform: translateY(-10px);
-    }
-
-    100% {
-        transform: translateY(0);
-    }
 }
 
 .favourites-container {
