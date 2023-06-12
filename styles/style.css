@@ -142,6 +142,7 @@ nav a:after {
 }
 
 .container .img img {
+    margin-top: 50px;
     max-width: 550px;
 
 }
